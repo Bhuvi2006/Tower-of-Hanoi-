@@ -1,6 +1,6 @@
 #Tower of Hanoi(Has 3 rods"A","B","C")
 def tower(n,a,b,c):
-#Here n is the number of discs , a is the starting ,b is intermidiate and c is the final rod 
+#Here n is the number of discs , a is the "origin" ,b is "mid tower" and c is the destination rod 
     if n==1:
         print("Move the first disc from",a,"to",c)
         return
